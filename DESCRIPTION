@@ -5,9 +5,36 @@ Authors@R: person('AUTHOR_FIRST', 'AUTHOR_LAST', email = 'AUTHOR@MAIL.COM', role
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config,
+    dplyr,
+    DT,
+    dygraphs,
+    ggplot2,
+    glue,
     golem,
-    shiny
+    htmltools,
+    janitor,
+    plotly,
+    processx,
+    readr,
+    rlang,
+    robotoolbox (>= 1.0.1.9000),
+    semantic.dashboard,
+    shiny,
+    shiny.semantic,
+    stringr,
+    thinkr,
+    timetk
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Remotes: 
+    gitlab::dickoa/robotoolbox
+URL: https://github.com/gavandrewj/IFESmonitor
+BugReports: https://github.com/gavandrewj/IFESmonitor/issues
